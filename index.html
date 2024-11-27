@@ -1,108 +1,166 @@
-
-<html lang="en">
+<!DOCTYPE html><!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-    }
-    .container {
-      width: 100%;
-      max-width: 900px;
-      margin: 0 auto;
-      background-color: #fff;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      overflow: hidden;
-    }
-    .header {
-      background-color: #f6e16d;
-      text-align: center;
-      padding: 20px;
-    }
-    .header h1 {
-      margin: 0;
-      font-size: 24px;
-      color: #000;
-    }
-    .header p {
-      font-size: 16px;
-      margin-top: 5px;
-    }
-    .profile {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 20px 0;
-    }
-    .profile img {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      border: 2px solid #000;
-    }
-    .content {
-      padding: 20px;
-    }
-    .content h2 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .categories {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 10px;
-    }
-    .category {
-      border: 2px solid #000;
-      height: 100px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-weight: bold;
-    }
-    .brands {
-      text-align: center;
-      margin: 20px 0;
-    }
-    .brands img {
-      height: 50px;
-      margin: 10px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #50C6DA;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #009B71;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+     }
+        .header {
+            background-color: #f6e16d;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #000;
+        }
+
+        .header p {
+            font-size: 16px;
+            margin-top: 5px;
+        }
+
+        .profile {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 2px solid #000;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .content h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+
+        .category {
+            border: 2px solid #000;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .brands {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .brands img {
+            height: 50px;
+            margin: 10px;
+        }
+
+        .box {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .box video, .box img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <div class="header">
-      <h1>Hello, welcome to my portfolio</h1>
-      <div class="profile">
-        <img src="profile-image.jpg" alt="Profile Picture">
-      </div>
-      <p>EXPLORANDO O MUNDO DO DESIGN, COM PAIXÃO POR CRIAR E CONTAR HISTÓRIAS ATRAVÉS DA IMAGEM E DO SOM</p>
-      <p><strong>If you don't have a dream, what is life for?</strong></p>
-    </div>
-    <div class="content">
-      <h2>Design · Produção · Direção · Edição</h2>
-      <div class="categories">
-        <div class="category">Design</div>
-        <div class="category">Produção</div>
-        <div class="category">Direção</div>
-        <div class="category">Edição</div>
-      </div>
-    </div>
-    <div class="brands">
-      <h2>Marcas que contribui</h2>
-      <img src="https://drive.google.com/file/d/14MTQHSYPBOSKy3l9CEayLBwmqSzF1pDt/view?usp=sharing" alt="Natura">
-      <img src="https://drive.google.com/file/d/1y0AzpOJ1ZWmce_Gr53Izz8ZG344QmBX3/view?usp=drive_link" alt="Riot Games">
-      <img src="https://drive.google.com/file/d/1MivBzaRk2QRvQN_KnWlYsFg7pSp63cJX/view?usp=drive_link" alt="Pringles">
-      <img src="https://drive.google.com/file/d/1KSqrG9uKQBqb4EpbAy-KWDuSta9KOQof/view?usp=drive_link" alt="Havaianas">
-      <img src="https://drive.google.com/file/d/1CE0i-CKjJWnCHkPtXVXtQuk3l_VEemYE/view?usp=drive_link" alt="Paramount">
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Hello, welcome to my portfolio</h1>
+            <div class="profile">
+                <img src="https://drive.google.com/file/d/1lJ-P_xHp2GOQOF-s2IsAPrWkqwLZ7h22/view?usp=drive_link" alt="Foto de Perfil">
+            </div>
+            <p>EXPLORANDO O MUNDO DO DESIGN, COM PAIXÃO POR CRIAR E CONTAR HISTÓRIAS ATRAVÉS DA IMAGEM E DO SOM</p>
+            <p><strong>If you don't have a dream, what is life for?</strong></p>
+        </div>
+         <!-- Marcas -->
+        <div class="brands">
+            <h2>Marcas que contribuí</h2>
+            <img src="natura-logo.png" alt="Natura">
+            <img src="riot-games-logo.png" alt="Riot Games">
+            <img src="pringles-logo.png" alt="Pringles">
+            <img src="havaianas-logo.png" alt="Havaianas">
+            <img src="paramount-logo.png" alt="Paramount">
+        </div>
+        <!-- Conteúdo -->
+        <div class="content">
+            <div class="categories">
+                <div class="category">Design</div>
+                <div class="category">Produção</div>
+                <div class="category">Direção</div>
+                <div class="category">Edição</div>
+            </div>
+        </div>
+
+        <!-- Vídeos -->
+        <div class="content">
+            <div class="box">
+                <h3>PRODUÇÃO</h3>
+                <video controls>
+                    <source src="https://drive.google.com/file/d/1XJcdPStTwmXLP3OzmdY9B7TQrXTxwc_Y/view?usp=drive_link" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+            </div>
+            <div class="box">
+                <h3>EDIÇÃO</h3>
+                <video controls>
+                    <source src="https://drive.google.com/file/d/1XF4m79Lp5Ev8_d4AI8yb_K3XhotHvYIw/view?usp=drive_link" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+            </div>
+            <div class="box">
+                <h3>DIREÇÃO</h3>
+                <video controls>
+                    <source src="https://drive.google.com/file/d/1XHzUJ7Gdm-1S3I7FMvFuRILqvHMHMzYa/view?usp=drive_link" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+            </div>
+            <div class="box">
+                <h3>DESIGN</h3>
+                <img src="https://i.postimg.cc/R0jLsxX1/quilombo-guarani.jpg" alt="Imagem de Design">
+            </div>
+        </div>
+        <p>email:henriqueagusto2106@gmail.com</p>
     </div>
 </body>
 </html>
-
