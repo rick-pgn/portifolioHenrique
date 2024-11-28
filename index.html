@@ -101,43 +101,86 @@
             height: 315px;
             border-radius: 8px;
         }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .categories {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .header h1 {
+                font-size: 20px;
+            }
+
+            .header p {
+                font-size: 14px;
+            }
+
+            .brands img {
+                height: 40px;
+                margin: 5px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .categories {
+                grid-template-columns: 1fr;
+            }
+
+            .header h1 {
+                font-size: 18px;
+            }
+
+            .header p {
+                font-size: 12px;
+            }
+
+            .profile img {
+                width: 80px;
+                height: 80px;
+            }
+
+            .brands img {
+                height: 30px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <!-- Header -->
         <div class="header">
-            <h1>Hello, welcome to my portfolio</h1>
+            <h1>Olá, Bem vinde ao meu portfolio</h1>
             <div class="profile">
-                <img src="https://postimg.cc/TyM7JCNC" alt="Foto de Perfil">
+                <img src="https://i.postimg.cc/vmDJMKrF/Henrique.jpg" alt="Foto de Perfil">
             </div>
             <p>EXPLORANDO O MUNDO DO DESIGN, COM PAIXÃO POR CRIAR E CONTAR HISTÓRIAS ATRAVÉS DA IMAGEM E DO SOM</p>
-            <p><strong>If you don't have a dream, what is life for?</strong></p>
+            <p><strong>"If you don't have a dream, what is life for?"</strong></p>
         </div>
         
         <!-- Marcas -->
         <div class="brands">
             <h2>Marcas que contribuí</h2>
-            <img src="https://postimg.cc/N9GxdV67" alt="Natura">
+            <img src="https://i.postimg.cc/k4KhgPDZ/Natura-Logo-PNG-e-Vetor-Download-de-Logo.jpg" alt="Natura">
             <img src="https://i.postimg.cc/K8jqgMRt/Riot-Games-New-2022-Logo-PNG-vector-in-SVG-PDF-AI-CDR-format.jpg" alt="Riot Games">
-            <img src="https://postimg.cc/rD6CBzGp" alt="Pringles">
-            <img src="https://postimg.cc/Mvgdz9wq" alt="Havaianas">
-            <img src="https://postimg.cc/5Q6SVCkX" alt="Paramount">
+            <img src="https://i.postimg.cc/bNzFpMPC/Pringles-Logo.jpg" alt="Pringles">
+            <img src="https://i.postimg.cc/t44ftcmZ/Luxury-fashion-independent-designers-SSENSE.jpg" alt="Havaianas">
+            <img src="https://i.postimg.cc/8cbKLdRm/Paramount-Global-logo-vector-svg-pdf-formats-Brandlogos-net.jpg" alt="Paramount">
         </div>
 
         <!-- Vídeos -->
         <div class="content">
             <div class="box">
                 <h3>PRODUÇÃO</h3>
-                <iframe src="https://www.youtube.com/embed/hwE28CvbP0g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://youtube.com/shorts/zJssRcVAECk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="box">
                 <h3>EDIÇÃO</h3>
-                <iframe src="https://www.youtube.com/embed/ApUuRp5oxy7Hvo_t" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/watch?v=mmS8jNqtaRA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="box">
                 <h3>DIREÇÃO</h3>
-                <iframe src="https://www.youtube.com/embed/zJssRcVAECk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://youtube.com/shorts/ydo4-41d34s?feature=share" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="box">
                 <h3>DESIGN</h3>
@@ -147,3 +190,4 @@
     </div>
 </body>
 </html>
+
