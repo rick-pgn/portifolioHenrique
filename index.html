@@ -22,7 +22,7 @@
         }
 
         .header {
-            background-color: #f6e16d;
+            background-color: #f6e16d; /* Amarelo */
             text-align: center;
             padding: 20px;
         }
@@ -36,6 +36,7 @@
         .header p {
             font-size: 16px;
             margin-top: 5px;
+            color: #000;
         }
 
         .profile {
@@ -55,11 +56,25 @@
         .brands {
             text-align: center;
             margin: 20px 0;
+            background-color: #fff; /* Fundo branco */
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .brands h2 {
+            margin: 0 0 20px 0;
+            color: #000;
+            font-size: 20px;
         }
 
         .brands img {
             height: 50px;
             margin: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .brands img:hover {
+            transform: scale(1.5);
         }
 
         .content {
@@ -69,21 +84,6 @@
         .content h2 {
             text-align: center;
             margin-bottom: 20px;
-        }
-
-        .categories {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 10px;
-        }
-
-        .category {
-            border: 2px solid #000;
-            height: 100px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-weight: bold;
         }
 
         .box {
@@ -101,10 +101,15 @@
             border-radius: 8px;
         }
 
-        /* Seção de Contato */
+        .box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
         .contact-section {
             width: 100%;
-            background-color: #009B71;
+            background-color: #009B71; /* Verde */
             padding: 20px;
             text-align: center;
         }
@@ -144,10 +149,6 @@
 
         /* Responsividade */
         @media (max-width: 768px) {
-            .categories {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
             .header h1 {
                 font-size: 20px;
             }
@@ -163,10 +164,6 @@
         }
 
         @media (max-width: 480px) {
-            .categories {
-                grid-template-columns: 1fr;
-            }
-
             .header h1 {
                 font-size: 18px;
             }
@@ -212,15 +209,15 @@
         <div class="content">
             <div class="box">
                 <h3>PRODUÇÃO</h3>
-                <iframe src="https://youtube.com/shorts/zJssRcVAECk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://youtube.com/shorts/zJssRcVAECk" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="box">
                 <h3>EDIÇÃO</h3>
-                <iframe src="https://www.youtube.com/watch?v=mmS8jNqtaRA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/watch?v=mmS8jNqtaRA" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="box">
                 <h3>DIREÇÃO</h3>
-                <iframe src="https://youtube.com/shorts/ydo4-41d34s?feature=share" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://youtube.com/shorts/ydo4-41d34s?feature=share" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="box">
                 <h3>DESIGN</h3>
